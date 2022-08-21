@@ -1,23 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import M1 from './components/M1';
+import M2 from './components/M2';
+import M3 from './components/M3';
+import M4 from './components/M4';
+import M5 from './components/M5';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Mistakes to avoid in React !!!!</h1>
+      <M5/>
     </div>
   );
 }
